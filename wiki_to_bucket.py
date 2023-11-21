@@ -85,9 +85,9 @@ if __name__ == '__main__':
   local_dir = './data'
   destination_blob_name = "test-wiki"
   # bucket name has to be gloabally unique
-  bucket_name = "test-85038852884732674025"
+  bucket_name = "your-bucket-name"
   test_file = local_dir + "/Cloud-Support.md"
-  project_id = 'phx-jchang'
+  project_id = 'gcp-project-id'
   
   #download_wiki_local(git_link, local_dir)
   #list_mds(local_dir)
